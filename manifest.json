@@ -1,9 +1,9 @@
 {
-	"name": "Jarvis", 
-	"short_name": "Sa-nthosh Technologies - Jarvis", 
+	"name": "Jarvis ai", 
+	"short_name": "Jarvis", 
 	"start_url": "/index.html",
-	"theme_color": "#fff",
-	"background_color": "#dc143c",
+	"theme_color": "#212121",
+	"background_color": "#fff",
 	"display": "standalone",
 	"icons":[
 	  {
