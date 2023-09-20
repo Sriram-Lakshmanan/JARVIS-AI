@@ -1,0 +1,27 @@
+{
+	"name": "Jarvis", 
+	"short_name": "Sa-nthosh Technologies - Jarvis", 
+	"start_url": "/index.html",
+	"theme_color": "#fff",
+	"background_color": "#dc143c",
+	"display": "standalone",
+	"icons":[
+	  {
+		"src":"Jarvis.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	  },
+	  {
+		"src":"Jarvis.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	  },
+	  {
+		"src":"Jarvis.png",
+		"type": "image/png",
+		"sizes": "192x192",
+		"purpose":"any maskable"
+	  }
+	]
+  
+  }
