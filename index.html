@@ -18,14 +18,18 @@
     </style>
     <script src="OneSignalSDKWorker.js"></script>
     <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-    <script>
-      window.OneSignalDeferred = window.OneSignalDeferred || [];
-      OneSignalDeferred.push(function(OneSignal) {
-        OneSignal.init({
-          appId: "17567b45-3415-48b6-864d-64c852529e21",
-        });
-      });
-    </script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "17567b45-3415-48b6-864d-64c852529e21",
+      safari_web_id: "web.onesignal.auto.2bd24c9c-6b5e-41da-a209-1033c3319dfc",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 </head>
 <body style="width: 100%;height: 100vh;overflow-y: hidden;">
     <script src="index.js"></script>
