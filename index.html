@@ -16,27 +16,25 @@
   width: 5px;
 }
     </style>
+    <script src="OneSignalSDKWorker.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(function(OneSignal) {
+        OneSignal.init({
+          appId: "17567b45-3415-48b6-864d-64c852529e21",
+        });
+      });
+    </script>
 </head>
 <body style="width: 100%;height: 100vh;overflow-y: hidden;">
     <script src="index.js"></script>
-<script src="sw.js"></script>
+
 <iframe src="https://interfaces.zapier.com/embed/page/clmrkicu3120840ol7jxekzqo8?" style='max-width: 100%; width: 100%; height: 100%;'></iframe>
 
 
 
 
-<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.4/app.js" async></script>
-<script>
-var truepush = window.truepush || [];
-        
-truepush.push(function(){
-    truepush.Init({
-        id: "650b341b5b014574e69d615a"
-    },function(error){
-      if(error) console.error(error);
-    })
-})
-</script>
 
 </body>
 </html>
