@@ -16,6 +16,18 @@
   width: 5px;
 }
     </style>
+
+    <script>
+      window.addEventListener('beforeunload', function(event) {
+  event.preventDefault();
+  event.returnValue = '';
+
+  var result = confirm("Are you sure you want to proceed?");
+  if (result) {
+    window.location.reload();
+  }
+});
+    </script>
     
     <script charset="UTF-8" src="//web.webpushs.com/js/push/a5177140a46874f5840dd2e1a248b7a9_1.js" async></script>
 </head>
